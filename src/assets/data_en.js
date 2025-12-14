@@ -63,7 +63,7 @@ const data = {
       description:
         "🌍 A booking website imitating Airbnb, build with NextJS and TailwindCSS.",
       tags: ["typescript", "nextjs", "tailwindcss"],
-      link: "https://fc-abb-clone.xyz",
+      link: "https://airbnb-clone-pgpi3ccvd-florent-cussatlegras-projects.vercel.app",
       linkGithub: "https://github.com/florentcussatlegras/airbnb-clone",
     },
     {
