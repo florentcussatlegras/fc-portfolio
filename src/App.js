@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import "./App.css";
 import About from "./partials/About";
 import Card from "./partials/Card";
@@ -8,8 +8,14 @@ import Skills from "./partials/Skills";
 import data from "./assets/data";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import dataFr from "./assets/data_fr";
+import dataEn from "./assets/data_en";
+import { LanguageContext } from "./context/LanguageContext";
 
 function App() {
+  const { language } = useContext(LanguageContext); // ← useContext ici
+  const data = language === "fr" ? dataFr : dataEn; // ← sélection des données
+
   useEffect(() => {
     AOS.init({
       once: true,

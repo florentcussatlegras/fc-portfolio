@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useContext } from "react";
 import profile from "../images/profile.png";
 import { FaGithub } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
+import { LanguageContext } from "../context/LanguageContext";
 
 function Card({ name, title, social: { github, dribbble, twitter, email } }) {
+  const { language, toggleLanguage } = useContext(LanguageContext);
+
   return (
     <div className="w-full">
-      <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
+      <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5 relative">
+        <button
+          onClick={toggleLanguage}
+          className="absolute right-0 top-0 mr-2 mt-2 px-3 py-1 text-sm
+                    bg-white rounded-lg shadow-sm
+                    hover:bg-gray-100 transition"
+        >
+          {language === "fr" ? "EN" : "FR"}
+        </button>
         <div className="">
           <img
             className="w-32 mx-auto shadow-xl rounded-full"
