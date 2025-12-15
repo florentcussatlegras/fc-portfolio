@@ -10,8 +10,6 @@ const data = {
   title: "Full-stack Developer",
   social: {
     github: "https://github.com/florentcussatlegras",
-    // dribbble: "https://github.com/BraydenTW",
-    // twitter: "https://github.com/BraydenTW",
     email: "florent.cussatlegras@gmail.com",
   },
   about: {
@@ -67,7 +65,7 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/airbnb-clone",
     },
     {
-      title: "Ten Thousands Hours",
+      title: "Ten Thousand Hours",
       description:
         "⏳ Une application conçue pour vous aider à gérer vos sessions de travail et devenir un expert, développée avec Next.js, HeroUI et TailwindCSS.",
       tags: ["typescript", "nextjs", "heroui", "tailwindcss"],
