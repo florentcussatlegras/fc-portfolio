@@ -14,8 +14,17 @@ const data = {
   },
   about: {
     title: "Mon parcours",
-    description:
-      "Avec plus de 20 ans d’expérience en développement logiciel, j’ai commencé ma carrière dans le web, où j’ai travaillé pendant 5 ans sur des projets variés, avant de rejoindre le secteur industriel. Pendant 15 ans, j’ai contribué au développement et à l’évolution d’un logiciel de gestion pour une entreprise industrielle, acquérant une solide expertise en architecture et en conception logicielle. Il y a trois ans, j’ai choisi de me réorienter vers le web pour devenir développeur full stack. Depuis, je me suis spécialisé dans Symfony, obtenant la certification niveau expert, et j’ai exploré Symfony UX pour enrichir l’expérience utilisateur. Parallèlement, j’ai développé mes compétences en JavaScript, TypeScript et React, tout en adoptant Tailwind pour des interfaces modernes et réactives. Cette combinaison d’expérience longue et de compétences récentes me permet d’aborder les projets web avec une vision complète, alliant robustesse backend et interfaces utilisateur dynamiques. Mon parcours reflète ma capacité à apprendre, m’adapter et apporter des solutions fiables et élégantes aux défis techniques.",
+    description: [
+      "Avec plus de 20 ans d’expérience en développement logiciel, j’ai commencé ma carrière dans le web, où j’ai travaillé pendant 5 ans sur des projets variés, avant de rejoindre le secteur industriel.",
+
+      "Pendant 15 ans, j’ai contribué au développement et à l’évolution d’un logiciel de gestion pour une entreprise industrielle, acquérant une solide expertise en architecture et en conception logicielle.",
+
+      "Il y a trois ans, j’ai choisi de me réorienter vers le web pour devenir développeur full stack. Depuis, je me suis spécialisé dans Symfony, obtenant la certification niveau expert, et j’ai exploré Symfony UX pour enrichir l’expérience utilisateur.",
+
+      "Parallèlement, j’ai développé mes compétences en JavaScript, TypeScript et React, tout en adoptant Tailwind pour des interfaces modernes et réactives.",
+
+      "Cette combinaison d’expérience longue et de compétences récentes me permet d’aborder les projets web avec une vision complète, alliant robustesse backend et interfaces utilisateur dynamiques.",
+    ],
   },
   skills: [
     {
@@ -40,7 +49,7 @@ const data = {
         <div className="w-16 h-16 mx-auto">
           <CIcon icon={cibReact} className="w-full h-full" />
         </div>
-      )
+      ),
     },
     {
       skillName: "TailwindCSS",

@@ -13,8 +13,8 @@ import dataEn from "./assets/data_en";
 import { LanguageContext } from "./context/LanguageContext";
 
 function App() {
-  const { language } = useContext(LanguageContext); // ← useContext ici
-  const data = language === "fr" ? dataFr : dataEn; // ← sélection des données
+  const { language } = useContext(LanguageContext);
+  const data = language === "fr" ? dataFr : dataEn;
 
   useEffect(() => {
     AOS.init({

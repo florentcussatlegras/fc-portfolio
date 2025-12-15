@@ -14,9 +14,20 @@ const data = {
   },
   about: {
     title: "My Background",
-    description:
-      "With over 20 years of experience in software development, I began my career in web development, where I worked for five years on a wide range of projects before moving into the industrial sector. For 15 years, I contributed to the development and evolution of a management software for an industrial company, gaining strong expertise in software architecture and design. Three years ago, I decided to return to web development and become a full-stack developer. Since then, I have specialized in Symfony, earning the Expert-level certification, and explored Symfony UX to enhance user experience. At the same time, I have strengthened my skills in JavaScript, TypeScript, and React, while adopting Tailwind CSS to build modern and responsive interfaces. This combination of long-term experience and up-to-date skills allows me to approach web projects with a comprehensive vision, combining robust backend systems with dynamic user interfaces. My journey reflects my ability to learn, adapt, and deliver reliable and elegant solutions to technical challenges.",
-    },
+    description: [
+      "With over 20 years of experience in software development, I began my career in web development, where I worked for five years on a wide range of projects before moving into the industrial sector.",
+
+      "For 15 years, I contributed to the development and evolution of management software for an industrial company, gaining strong expertise in software architecture and software design.",
+
+      "Three years ago, I decided to return to web development and become a full-stack developer. Since then, I have specialized in Symfony, earning the Expert-level certification, and explored Symfony UX to enhance user experience.",
+
+      "At the same time, I have strengthened my skills in JavaScript, TypeScript, and React, while adopting Tailwind CSS to build modern and responsive interfaces.",
+
+      "This combination of long-term experience and up-to-date skills allows me to approach web projects with a comprehensive vision, combining robust backend systems with dynamic user interfaces.",
+
+      "My journey reflects my ability to learn, adapt, and deliver reliable and elegant solutions to technical challenges."
+    ],
+  },
   skills: [
     {
       skillName: "Fullstack",

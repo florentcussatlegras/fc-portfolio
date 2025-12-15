@@ -5,12 +5,12 @@ import GitHubButton from "react-github-btn";
 const ProjectCard = ({ project: { title, description, tags, link, linkGithub } }) => {
   return (
     <div className="group w-full sm:w-1/2 m-4 mx-auto p-6 rounded-xl border-2 border-gray-300">
-      <h1 className="text-xl text-center font-bold">
+      <h1 className="text-xl text-center font-bold gap-4 flex justify-center">
         {title}{" "}
         <a href={link}>
           <FaExternalLinkAlt className="inline align-baseline" />
         </a>{" "}
-        <a href={link}>
+        <a href={linkGithub}>
           <FaGithub className="inline align-baseline" />
         </a>
       </h1>
