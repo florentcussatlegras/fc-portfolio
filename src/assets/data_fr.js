@@ -97,6 +97,14 @@ const data = {
       linkGithub:
         "https://github.com/florentcussatlegras/ecommerce-symfony-react",
     },
+    {
+      title: "Site pulse",
+      description:
+        "⏳ A compléter",
+      tags: ["symfony", "reactjs", "typescript", "tailwindcss"],
+      link: "https://sitepulse-production.up.railway.app/",
+      linkGithub: "https://github.com/florentcussatlegras/sitepulse",
+    },
   ],
 };
 export default data;
