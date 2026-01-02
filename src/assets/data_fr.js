@@ -84,7 +84,7 @@ const data = {
     {
       title: "My Bags Shop",
       description:
-        "🛍️ Une boutique de chaussures en ligne, développée avec Symfony, Next.js et Material UI.An online shoe shop, build with Symfony, NextJS and MaterialUI.",
+        "🛍️ Une boutique de chaussures en ligne, développée avec Symfony, Next.js et Material UI.",
       tags: [
         "php",
         "symfony",
