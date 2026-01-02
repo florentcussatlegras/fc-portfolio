@@ -103,7 +103,7 @@ const data = {
       title: "Site pulse",
       description:
         "⏳ A compléter",
-      tags: ["symfony", "reactjs", "typescript", "tailwindcss"],
+      tags: ["php", "symfony", "reactjs", "typescript", "tailwindcss"],
       link: "https://sitepulse-production.up.railway.app/",
       linkGithub: "https://github.com/florentcussatlegras/sitepulse",
     },
