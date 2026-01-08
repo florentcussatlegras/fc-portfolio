@@ -61,30 +61,34 @@ const data = {
       title: "Assiette idéale",
       description:
         "🥗 Pour vous aider à adopter une alimentation plus saine et plus équilibrée, développé avec Symfony et TailwindCSS.",
+      image: "screen_nutrition.png",
       tags: ["php", "symfony", "tailwindcss", "symfonyux"],
       link: "https://fc-nutrition.com",
       linkGithub: "https://github.com/florentcussatlegras/liveforeat3.0",
     },
     {
-      title: "Airbnb Clone",
-      description:
-        "🌍 Un site de réservation imitant Airbnb, développé avec Next.js et TailwindCSS.",
-      tags: ["typescript", "nextjs", "tailwindcss"],
-      link: "https://airbnb-clone-pgpi3ccvd-florent-cussatlegras-projects.vercel.app",
-      linkGithub: "https://github.com/florentcussatlegras/airbnb-clone",
-    },
-    {
       title: "Ten Thousand Hours",
       description:
         "⏳ Une application conçue pour vous aider à gérer vos sessions de travail et devenir un expert, développée avec Next.js, HeroUI et TailwindCSS.",
+      image: "screen_ten_thousand_years.png",
       tags: ["typescript", "nextjs", "heroui", "tailwindcss"],
       link: "https://fc-ten-thousand-hours.com",
       linkGithub: "https://github.com/florentcussatlegras/tenthousandshours",
     },
     {
+      title: "Site pulse",
+      description:
+        "⏳ A compléter",
+      image: "screen_site_pulse.png",
+      tags: ["php", "symfony", "reactjs", "typescript", "tailwindcss", "symfonyux"],
+      link: "https://sitepulse-production.up.railway.app/",
+      linkGithub: "https://github.com/florentcussatlegras/sitepulse",
+    },
+    {
       title: "My Bags Shop",
       description:
         "🛍️ Une boutique de chaussures en ligne, développée avec Symfony, Next.js et Material UI.",
+      image: "screen_bag_shop.png",
       tags: [
         "php",
         "symfony",
@@ -98,12 +102,13 @@ const data = {
         "https://github.com/florentcussatlegras/ecommerce-symfony-react",
     },
     {
-      title: "Site pulse",
+      title: "Airbnb Clone",
       description:
-        "⏳ A compléter",
-      tags: ["php", "symfony", "reactjs", "typescript", "tailwindcss", "symfonyux"],
-      link: "https://sitepulse-production.up.railway.app/",
-      linkGithub: "https://github.com/florentcussatlegras/sitepulse",
+        "🌍 Un site de réservation imitant Airbnb, développé avec Next.js et TailwindCSS.",
+      image: "screen_nutrition.png",
+      tags: ["typescript", "nextjs", "tailwindcss"],
+      link: "https://airbnb-clone-pgpi3ccvd-florent-cussatlegras-projects.vercel.app",
+      linkGithub: "https://github.com/florentcussatlegras/airbnb-clone",
     },
   ],
 };
