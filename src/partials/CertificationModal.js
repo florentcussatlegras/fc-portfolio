@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const CertificateModal = ({ src, alt, target }) => {
+const CertificateModal = ({ src, target, alt }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -16,7 +16,7 @@ const CertificateModal = ({ src, alt, target }) => {
       {/* Modal */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50"
+          className="fixed inset-0 flex justify-center items-center z-50 h-full"
           onClick={() => setIsOpen(false)} // ferme au clic sur le fond
         >
           <div className="relative p-4 max-w-3xl w-full">
