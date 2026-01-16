@@ -49,7 +49,6 @@ function App() {
           alt="Symfony Certification"
           className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-2xl"
         />
-        TOTO
       </Modal>
     </div>
   );

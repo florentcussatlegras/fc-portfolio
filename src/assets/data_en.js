@@ -58,27 +58,27 @@ const data = {
   ],
   projects: [
     {
-      title: "Nutrition",
+      title: "🥗 Nutrition",
       description:
-        "🥗 To help you adopt a healthier and more balanced diet, build with Symfony and TailwindCSS.",
+        "To help you adopt a healthier and more balanced diet, build with Symfony and TailwindCSS.",
       image: "screen_nutrition.png",
       tags: ["php", "symfony", "tailwindcss", "symfonyux", "docker"],
       link: "https://fc-nutrition.com",
       linkGithub: "https://github.com/florentcussatlegras/assiette-ideale",
     },
     {
-      title: "Ten Thousand Hours",
+      title: "⏳ Ten Thousand Hours",
       description:
-        "⏳ An app designed to help you manage your work sessions and become an expert, build with NextJS, HeroUI and TailwindCSS.",
+        "An app designed to help you manage your work sessions and become an expert, build with NextJS, HeroUI and TailwindCSS.",
       image: "screen_ten_thousand_years.png",
       tags: ["typescript", "nextjs", "heroui", "tailwindcss"],
       link: "https://fc-ten-thousand-hours.com",
       linkGithub: "https://github.com/florentcussatlegras/ten-thousand-hours",
     },
     {
-      title: "Site pulse",
+      title: "💻 Site pulse",
       description:
-        "💻 A web auditing tool that automatically evaluates the Performance, Accessibility, SEO, and Best Practices of a given URL. Developed with Symfony, ReactJS, TypeScript, TailwindCSS, and Symfony UX.",
+        "A web auditing tool that automatically evaluates the Performance, Accessibility, SEO, and Best Practices of a given URL. Developed with Symfony, ReactJS, TypeScript, TailwindCSS, and Symfony UX.",
       image: "screen_site_pulse.png",
       tags: [
         "php",
@@ -93,9 +93,9 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/site-pulse",
     },
     {
-      title: "My Bags Shop",
+      title: "🛍️ My Bags Shop",
       description:
-        "🛍️ An online shoe shop, build with Symfony, NextJS and MaterialUI.",
+        "An online shoe shop, build with Symfony, NextJS and MaterialUI.",
       image: "screen_bag_shop.png",
       tags: [
         "php",
@@ -109,9 +109,9 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/my-bags-shop",
     },
     {
-      title: "Airbnb Clone",
+      title: "🌍 Airbnb Clone",
       description:
-        "🌍 A booking website imitating Airbnb, build with NextJS and TailwindCSS.",
+        "A booking website imitating Airbnb, build with NextJS and TailwindCSS.",
       image: "screen_airbnb_clone.png",
       tags: ["typescript", "nextjs", "tailwindcss"],
       link: "https://airbnb-clone-git-main-florent-cussatlegras-projects.vercel.app",
