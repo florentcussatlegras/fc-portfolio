@@ -11,6 +11,7 @@ import "aos/dist/aos.css";
 import dataFr from "./assets/data_fr";
 import dataEn from "./assets/data_en";
 import { LanguageContext } from "./context/LanguageContext";
+import Modal from "./partials/components/Modal";
 
 function App() {
   const { language } = useContext(LanguageContext);
