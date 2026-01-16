@@ -25,7 +25,7 @@ const data = {
 
       "This combination of long-term experience and up-to-date skills allows me to approach web projects with a comprehensive vision, combining robust backend systems with dynamic user interfaces.",
 
-      "My journey reflects my ability to learn, adapt, and deliver reliable and elegant solutions to technical challenges."
+      "My journey reflects my ability to learn, adapt, and deliver reliable and elegant solutions to technical challenges.",
     ],
   },
   skills: [
@@ -51,7 +51,7 @@ const data = {
         <div className="w-16 h-16 mx-auto">
           <CIcon icon={cibReact} className="w-full h-full" />
         </div>
-      )
+      ),
     },
     {
       skillName: "TailwindCSS",
@@ -64,9 +64,9 @@ const data = {
       description:
         "🥗 To help you adopt a healthier and more balanced diet, build with Symfony and TailwindCSS.",
       image: "screen_nutrition.png",
-      tags: ["php", "symfony", "tailwindcss", "symfonyux"],
+      tags: ["php", "symfony", "tailwindcss", "symfonyux", "docker"],
       link: "https://fc-nutrition.com",
-      linkGithub: "https://github.com/florentcussatlegras/liveforeat3.0",
+      linkGithub: "https://github.com/florentcussatlegras/assiette-ideale",
     },
     {
       title: "Ten Thousand Hours",
@@ -75,16 +75,24 @@ const data = {
       image: "screen_ten_thousand_years.png",
       tags: ["typescript", "nextjs", "heroui", "tailwindcss"],
       link: "https://fc-ten-thousand-hours.com",
-      linkGithub: "https://github.com/florentcussatlegras/tenthousandshours",
+      linkGithub: "https://github.com/florentcussatlegras/ten-thousand-hours",
     },
     {
       title: "Site pulse",
       description:
-        "⏳ A compléter",
+        "💻 A web auditing tool that automatically evaluates the Performance, Accessibility, SEO, and Best Practices of a given URL. Developed with Symfony, ReactJS, TypeScript, TailwindCSS, and Symfony UX.",
       image: "screen_site_pulse.png",
-      tags: ["php", "symfony", "reactjs", "typescript", "tailwindcss", "symfonyux"],
+      tags: [
+        "php",
+        "symfony",
+        "reactjs",
+        "typescript",
+        "tailwindcss",
+        "symfonyux",
+        "docker",
+      ],
       link: "https://sitepulse-production.up.railway.app/",
-      linkGithub: "https://github.com/florentcussatlegras/sitepulse",
+      linkGithub: "https://github.com/florentcussatlegras/site-pulse",
     },
     {
       title: "My Bags Shop",
@@ -100,16 +108,15 @@ const data = {
         "tailwindcss",
       ],
       link: "https://fc-bags-shop.com",
-      linkGithub:
-        "https://github.com/florentcussatlegras/ecommerce-symfony-react",
+      linkGithub: "https://github.com/florentcussatlegras/my-bags-shop",
     },
     {
       title: "Airbnb Clone",
       description:
         "🌍 A booking website imitating Airbnb, build with NextJS and TailwindCSS.",
-      image: "screen_nutrition.png",
+      image: "screen_airbnb_clone.png",
       tags: ["typescript", "nextjs", "tailwindcss"],
-      link: "https://airbnb-clone-pgpi3ccvd-florent-cussatlegras-projects.vercel.app",
+      link: "https://airbnb-clone-git-main-florent-cussatlegras-projects.vercel.app",
       linkGithub: "https://github.com/florentcussatlegras/airbnb-clone",
     },
   ],

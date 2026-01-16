@@ -62,9 +62,9 @@ const data = {
       description:
         "🥗 Pour vous aider à adopter une alimentation plus saine et plus équilibrée, développé avec Symfony et TailwindCSS.",
       image: "screen_nutrition.png",
-      tags: ["php", "symfony", "tailwindcss", "symfonyux"],
+      tags: ["php", "symfony", "tailwindcss", "symfonyux", "docker"],
       link: "https://fc-nutrition.com",
-      linkGithub: "https://github.com/florentcussatlegras/liveforeat3.0",
+      linkGithub: "https://github.com/florentcussatlegras/assiette-ideale",
     },
     {
       title: "Ten Thousand Hours",
@@ -73,16 +73,24 @@ const data = {
       image: "screen_ten_thousand_years.png",
       tags: ["typescript", "nextjs", "heroui", "tailwindcss"],
       link: "https://fc-ten-thousand-hours.com",
-      linkGithub: "https://github.com/florentcussatlegras/tenthousandshours",
+      linkGithub: "https://github.com/florentcussatlegras/ten-thousand-hours",
     },
     {
       title: "Site pulse",
       description:
-        "⏳ A compléter",
+        "💻 Site d’audit web permettant d’évaluer automatiquement la Performance, l’Accessibilité, le SEO et les Bonnes Pratiques d’une URL. Développé avec Symfony, ReactJS, TypeScript, TailwindCSS et Symfony UX.",
       image: "screen_site_pulse.png",
-      tags: ["php", "symfony", "reactjs", "typescript", "tailwindcss", "symfonyux"],
+      tags: [
+        "php",
+        "symfony",
+        "reactjs",
+        "typescript",
+        "tailwindcss",
+        "symfonyux",
+        "docker",
+      ],
       link: "https://sitepulse-production.up.railway.app/",
-      linkGithub: "https://github.com/florentcussatlegras/sitepulse",
+      linkGithub: "https://github.com/florentcussatlegras/site-pulse",
     },
     {
       title: "My Bags Shop",
@@ -98,16 +106,15 @@ const data = {
         "tailwindcss",
       ],
       link: "https://fc-bags-shop.com",
-      linkGithub:
-        "https://github.com/florentcussatlegras/ecommerce-symfony-react",
+      linkGithub: "https://github.com/florentcussatlegras/my-bags-shop",
     },
     {
       title: "Airbnb Clone",
       description:
         "🌍 Un site de réservation imitant Airbnb, développé avec Next.js et TailwindCSS.",
-      image: "screen_nutrition.png",
+      image: "screen_airbnb_clone.png",
       tags: ["typescript", "nextjs", "tailwindcss"],
-      link: "https://airbnb-clone-pgpi3ccvd-florent-cussatlegras-projects.vercel.app",
+      link: "https://airbnb-clone-git-main-florent-cussatlegras-projects.vercel.app",
       linkGithub: "https://github.com/florentcussatlegras/airbnb-clone",
     },
   ],
