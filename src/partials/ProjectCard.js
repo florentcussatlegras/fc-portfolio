@@ -12,7 +12,7 @@ const ProjectCard = ({
           <FaExternalLinkAlt className="inline align-baseline" />
         </a>{" "} */}
       </h1>
-      <a href={linkGithub} className="absolute top-6 right-6">
+      <a href={linkGithub} className="absolute top-6 right-6 text-3xl text-gray-700 hover:text-black hover:scale-110 transition">
         <FaGithub className="inline align-baseline" />
       </a>
       <hr className="my-4" />
