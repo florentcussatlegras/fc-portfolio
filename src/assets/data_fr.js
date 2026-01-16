@@ -58,7 +58,7 @@ const data = {
   ],
   projects: [
     {
-      title: "🥗 Assiette idéale",
+      title: "Assiette idéale",
       description:
         "Pour vous aider à adopter une alimentation plus saine et plus équilibrée, développé avec Symfony et TailwindCSS.",
       image: "screen_nutrition.png",
