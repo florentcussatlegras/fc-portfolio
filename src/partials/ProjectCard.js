@@ -5,19 +5,21 @@ const ProjectCard = ({
   project: { title, image, description, tags, link, linkGithub },
 }) => {
   return (
-    <div className="group w-full sm:w-1/2 m-4 mx-auto p-6 rounded-xl border-2 border-gray-300">
+    <div className="group w-full sm:w-1/2 m-4 mx-auto p-6 rounded-xl border-2 border-gray-300 relative">
       <h1 className="text-xl text-center font-bold gap-4 flex justify-center">
-        {title}{" "}
-        <a href={link}>
+        <a href={link}>{title} </a>
+        {/* <a href={link}>
           <FaExternalLinkAlt className="inline align-baseline" />
-        </a>{" "}
-        <a href={linkGithub}>
-          <FaGithub className="inline align-baseline" />
-        </a>
+        </a>{" "} */}
       </h1>
+      <a href={linkGithub} className="absolute top-2 right-2">
+        <FaGithub className="inline align-baseline" />
+      </a>
       <hr className="my-4" />
       <div className="flex flex-col lg:flex-row items-center gap-5">
-        <img src={image} className="w-full lg:w-1/2" />
+        <a href={link}>
+          <img src={image} className="w-full lg:w-1/2" />
+        </a>
         <p className="w-full lg:w-1/2">{description}</p>
       </div>
       <div className="mt-8 mb-8 flex flex-wrap justify-center items-center gap-2">

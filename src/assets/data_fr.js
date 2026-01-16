@@ -67,7 +67,7 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/assiette-ideale",
     },
     {
-      title: "⏳ Ten Thousand Hours",
+      title: "Ten Thousand Hours",
       description:
         "Une application conçue pour vous aider à gérer vos sessions de travail et devenir un expert, développée avec Next.js, HeroUI et TailwindCSS.",
       image: "screen_ten_thousand_years.png",
@@ -76,7 +76,7 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/ten-thousand-hours",
     },
     {
-      title: "💻 Site pulse",
+      title: "Site pulse",
       description:
         "Site d’audit web permettant d’évaluer automatiquement la Performance, l’Accessibilité, le SEO et les Bonnes Pratiques d’une URL. Développé avec Symfony, ReactJS, TypeScript, TailwindCSS et Symfony UX.",
       image: "screen_site_pulse.png",
@@ -93,7 +93,7 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/site-pulse",
     },
     {
-      title: "🛍️ My Bags Shop",
+      title: "My Bags Shop",
       description:
         "Une boutique de chaussures en ligne, développée avec Symfony, Next.js et Material UI.",
       image: "screen_bag_shop.png",
@@ -109,7 +109,7 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/my-bags-shop",
     },
     {
-      title: "🌍 Airbnb Clone",
+      title: "Airbnb Clone",
       description:
         "Un site de réservation imitant Airbnb, développé avec Next.js et TailwindCSS.",
       image: "screen_airbnb_clone.png",

@@ -58,7 +58,7 @@ const data = {
   ],
   projects: [
     {
-      title: "🥗 Nutrition",
+      title: "Nutrition",
       description:
         "To help you adopt a healthier and more balanced diet, build with Symfony and TailwindCSS.",
       image: "screen_nutrition.png",
@@ -67,7 +67,7 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/assiette-ideale",
     },
     {
-      title: "⏳ Ten Thousand Hours",
+      title: "Ten Thousand Hours",
       description:
         "An app designed to help you manage your work sessions and become an expert, build with NextJS, HeroUI and TailwindCSS.",
       image: "screen_ten_thousand_years.png",
@@ -93,7 +93,7 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/site-pulse",
     },
     {
-      title: "🛍️ My Bags Shop",
+      title: "My Bags Shop",
       description:
         "An online shoe shop, build with Symfony, NextJS and MaterialUI.",
       image: "screen_bag_shop.png",
@@ -109,7 +109,7 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/my-bags-shop",
     },
     {
-      title: "🌍 Airbnb Clone",
+      title: "Airbnb Clone",
       description:
         "A booking website imitating Airbnb, build with NextJS and TailwindCSS.",
       image: "screen_airbnb_clone.png",
