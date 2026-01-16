@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const CertificateModal = ({ src, alt }) => {
+const CertificateModal = ({ src, alt, target }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -21,7 +21,7 @@ const CertificateModal = ({ src, alt }) => {
         >
           <div className="relative p-4 max-w-3xl w-full">
             <img
-              src={src}
+              src={target}
               alt={alt}
               className="w-full h-auto rounded-lg shadow-lg"
             />

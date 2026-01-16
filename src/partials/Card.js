@@ -36,14 +36,9 @@ function Card({ name, title, social: { github, dribbble, twitter, email } }) {
             {title}
           </p>
 
-          {/* <img
-            src="/logo-symfony-certified.png"
-            alt="SensioLabs Certified Symfony Developer Expert"
-            className="w-24 h-24 mx-auto mt-4"
-          /> */}
-
           <CertificateModal
             src="/logo-symfony-certified.png"
+            target="/certificate-florent_cussatlegras.png"
             alt="SensioLabs Certified Symfony Developer Expert"
           />
 
