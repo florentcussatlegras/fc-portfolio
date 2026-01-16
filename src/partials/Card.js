@@ -5,7 +5,6 @@ import { FaDribbble } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import { LanguageContext } from "../context/LanguageContext";
-import CertificateModal from "./CertificationModal";
 
 function Card({
   name,
