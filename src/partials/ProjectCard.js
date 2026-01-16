@@ -18,7 +18,7 @@ const ProjectCard = ({
       <hr className="my-4" />
       <div className="flex flex-col lg:flex-row items-center gap-5">
         <a href={link} className="w-full lg:w-1/2">
-          <img src={image} />
+          <img src={image} className="hover:scale-110 transition" />
         </a>
         <p className="w-full lg:w-1/2">{description}</p>
       </div>
