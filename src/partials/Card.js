@@ -7,7 +7,14 @@ import { FaRegEnvelope } from "react-icons/fa";
 import { LanguageContext } from "../context/LanguageContext";
 import CertificateModal from "./CertificationModal";
 
-function Card({ name, title, social: { github, dribbble, twitter, email } }) {
+function Card({
+  name,
+  title,
+  social: { github, dribbble, twitter, email },
+  onOpenCertificate,
+  isCertificateOpen,
+  onCloseCertificate,
+}) {
   const { language, toggleLanguage } = useContext(LanguageContext);
 
   return (
@@ -36,10 +43,11 @@ function Card({ name, title, social: { github, dribbble, twitter, email } }) {
             {title}
           </p>
 
-          <CertificateModal
+          <img
             src="/logo-symfony-certified.png"
-            target="/certificate-florent_cussatlegras.png"
-            alt="SensioLabs Certified Symfony Developer Expert"
+            alt="Symfony Certified Developer"
+            className="w-24 h-24 mx-auto mt-4 cursor-pointer"
+            onClick={onOpenCertificate}
           />
 
           <div className="flex align-center justify-center mt-4">

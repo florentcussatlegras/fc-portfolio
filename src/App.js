@@ -16,6 +16,8 @@ function App() {
   const { language } = useContext(LanguageContext);
   const data = language === "fr" ? dataFr : dataEn;
 
+  const [isCertificateOpen, setIsCertificateOpen] = useState(false);
+
   useEffect(() => {
     AOS.init({
       once: true,
@@ -24,7 +26,14 @@ function App() {
   return (
     <div className="min-h-screen py-10 px-3 sm:px-5 bg-gray-100">
       <div data-aos="fade-down" data-aos-duration="800">
-        <Card name={data.name} title={data.title} social={data.social} />
+        <Card
+          name={data.name}
+          title={data.title}
+          social={data.social}
+          onOpenCertificate={() => setIsCertificateOpen(true)}
+          isCertificateOpen={isCertificateOpen}
+          onCloseCertificate={() => setIsCertificateOpen(false)}
+        />
       </div>
       <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
         <About title={data.about.title} description={data.about.description} />
@@ -32,6 +41,13 @@ function App() {
         <Projects projects={data.projects} />
         <Footer github={data.social.github} />
       </div>
+      <Modal isOpen={isCertificateOpen} onClose={onCloseCertificate}>
+        <img
+          src="/certificate-florent_cussatlegras.png"
+          alt="Symfony Certification"
+          className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-2xl"
+        />
+      </Modal>
     </div>
   );
 }
