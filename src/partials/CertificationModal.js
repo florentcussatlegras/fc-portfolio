@@ -25,12 +25,6 @@ const CertificateModal = ({ src, target, alt }) => {
               alt={alt}
               className="w-full h-auto rounded-lg shadow-lg"
             />
-            <button
-              onClick={() => setIsOpen(false)}
-              className="absolute top-2 right-2 text-white text-2xl font-bold"
-            >
-              &times;
-            </button>
           </div>
         </div>
       )}
