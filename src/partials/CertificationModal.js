@@ -16,7 +16,7 @@ const CertificateModal = ({ src, target, alt }) => {
       {/* Modal */}
       {isOpen && (
         <div
-          className="absolute inset-0 flex justify-center items-center z-50 h-full bg-black"
+          className="fixed inset-0 flex justify-center items-center z-50 h-full"
           onClick={() => setIsOpen(false)} // ferme au clic sur le fond
         >
           <div className="relative p-4 max-w-3xl w-full">
