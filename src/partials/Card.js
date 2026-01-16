@@ -12,7 +12,7 @@ function Card({ name, title, social: { github, dribbble, twitter, email } }) {
 
   return (
     <div className="w-full border">
-      <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5 relative">
+      <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
         <button
           onClick={toggleLanguage}
           className="absolute right-0 top-0 mr-2 mt-2 px-3 py-1 text-sm
