@@ -5,6 +5,7 @@ import { FaDribbble } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import { LanguageContext } from "../context/LanguageContext";
+import CertificateModal from "./CertificationModal";
 
 function Card({ name, title, social: { github, dribbble, twitter, email } }) {
   const { language, toggleLanguage } = useContext(LanguageContext);
@@ -35,10 +36,15 @@ function Card({ name, title, social: { github, dribbble, twitter, email } }) {
             {title}
           </p>
 
-          <img
+          {/* <img
             src="/logo-symfony-certified.png"
             alt="SensioLabs Certified Symfony Developer Expert"
             className="w-24 h-24 mx-auto mt-4"
+          /> */}
+
+          <CertificateModal
+            src="/logo-symfony-certified.png"
+            alt="SensioLabs Certified Symfony Developer Expert"
           />
 
           <div className="flex align-center justify-center mt-4">
