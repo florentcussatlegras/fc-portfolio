@@ -27,7 +27,7 @@ const ProjectCard = ({
           return (
             <div
               key={tag}
-              className="px-4 py-1 border-2 rounded-full ${colorClass}"
+              className={`px-4 py-1 border-2 rounded-full ${colorClass}`}
             >
               {tag}
             </div>
