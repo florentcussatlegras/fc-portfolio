@@ -50,6 +50,7 @@ function App() {
           className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-2xl"
         />
       </Modal>
+      <ScrollToTopButton />
     </div>
   );
 }
