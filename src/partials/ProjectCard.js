@@ -6,8 +6,8 @@ const ProjectCard = ({
 }) => {
   return (
     <div className="group w-full sm:w-1/2 m-4 mx-auto p-6 rounded-xl border-2 border-gray-300 relative">
-      <h1 className="text-xl text-center font-bold gap-4 flex justify-center hover:scale-110 transition">
-        <a href={link}>{title} </a>
+      <h1 className="text-xl text-center font-bold gap-4 flex justify-center">
+        <a href={link} className=" hover:scale-110 transition">{title} </a>
         {/* <a href={link}>
           <FaExternalLinkAlt className="inline align-baseline" />
         </a>{" "} */}
