@@ -12,6 +12,7 @@ import dataFr from "./assets/data_fr";
 import dataEn from "./assets/data_en";
 import { LanguageContext } from "./context/LanguageContext";
 import Modal from "./partials/components/Modal";
+import ScrollToTopButton from "./partials/components/ScrollToTopButton";
 
 function App() {
   const { language } = useContext(LanguageContext);
