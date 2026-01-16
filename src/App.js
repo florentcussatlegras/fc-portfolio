@@ -19,6 +19,9 @@ function App() {
 
   const [isCertificateOpen, setIsCertificateOpen] = useState(false);
 
+  const openCertificate = () => setIsCertificateOpen(true);
+  const closeCertificate = () => setIsCertificateOpen(false);
+
   useEffect(() => {
     AOS.init({
       once: true,
@@ -31,9 +34,7 @@ function App() {
           name={data.name}
           title={data.title}
           social={data.social}
-          onOpenCertificate={() => setIsCertificateOpen(true)}
-          isCertificateOpen={isCertificateOpen}
-          onCloseCertificate={() => setIsCertificateOpen(false)}
+          onOpenCertificate={openCertificate}
         />
       </div>
       <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
@@ -42,7 +43,7 @@ function App() {
         <Projects projects={data.projects} />
         <Footer github={data.social.github} />
       </div>
-      <Modal isOpen={isCertificateOpen} onClose={onCloseCertificate}>
+      <Modal isOpen={isCertificateOpen} onClose={closeCertificate}>
         <img
           src="/certificate-florent_cussatlegras.png"
           alt="Symfony Certification"

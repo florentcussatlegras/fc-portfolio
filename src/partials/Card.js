@@ -11,8 +11,6 @@ function Card({
   title,
   social: { github, dribbble, twitter, email },
   onOpenCertificate,
-  isCertificateOpen,
-  onCloseCertificate,
 }) {
   const { language, toggleLanguage } = useContext(LanguageContext);
 
