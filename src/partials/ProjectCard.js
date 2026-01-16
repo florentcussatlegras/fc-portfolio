@@ -17,8 +17,8 @@ const ProjectCard = ({
       </a>
       <hr className="my-4" />
       <div className="flex flex-col lg:flex-row items-center gap-5">
-        <a href={link}>
-          <img src={image} className="w-full lg:w-1/2" />
+        <a href={link} className="w-full lg:w-1/2">
+          <img src={image} />
         </a>
         <p className="w-full lg:w-1/2">{description}</p>
       </div>
