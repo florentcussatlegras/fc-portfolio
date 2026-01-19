@@ -76,7 +76,7 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/ten-thousand-hours",
     },
     {
-      title: "Site pulse",
+      title: "Site Pulse",
       description:
         "Site d’audit web permettant d’évaluer automatiquement la Performance, l’Accessibilité, le SEO et les Bonnes Pratiques d’une URL. Développé avec Symfony, ReactJS, TypeScript, TailwindCSS et Symfony UX.",
       image: "screen_site_pulse.png",
@@ -116,6 +116,15 @@ const data = {
       tags: ["typescript", "nextjs", "tailwindcss"],
       link: "https://airbnb-clone-git-main-florent-cussatlegras-projects.vercel.app",
       linkGithub: "https://github.com/florentcussatlegras/airbnb-clone",
+    },
+    {
+      title: "Q/A Tech",
+      description:
+        "Un site de questions/réponses sur les technologies modernes du développement web.",
+      image: "screen_qa_tech.png",
+      tags: ["symfony", "reactjs", "tailwindcss"],
+      link: "https://qa-tech.up.railway.app/",
+      linkGithub: "https://github.com/florentcussatlegras/skill-drills",
     },
   ],
 };
