@@ -49,19 +49,20 @@ function Card({
 
           <div className="flex align-center justify-center mt-4">
             <a
-              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300"
+              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-500 rounded-full hover:text-white transition-colors duration-300"
               href={github}
             >
               <FaGithub />
               <span class="sr-only">Github</span>
             </a>
-            {/* <a
+            <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-pink-600 hover:bg-pink-600 rounded-full hover:text-white transition-colors duration-300"
               href={dribbble}
             >
               <FaDribbble />
               <span class="sr-only">Dribble</span>
             </a>
+            {/*
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
               href={twitter}
