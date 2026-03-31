@@ -18,10 +18,10 @@ function App() {
   const { language } = useContext(LanguageContext);
   const data = language === "fr" ? dataFr : dataEn;
 
-  const [isCertificateOpen, setIsCertificateOpen] = useState(false);
+  const [activeModal, setActiveModal] = useState(null);
 
-  const openCertificate = () => setIsCertificateOpen(true);
-  const closeCertificate = () => setIsCertificateOpen(false);
+  const openModal = (type) => setActiveModal(type);
+  const closeModal = () => setActiveModal(null);
 
   useEffect(() => {
     AOS.init({
@@ -35,7 +35,8 @@ function App() {
           name={data.name}
           title={data.title}
           social={data.social}
-          onOpenCertificate={openCertificate}
+          onOpenCertificate={() => openModal("certificate")}
+          onOpenCV={() => openModal("cv")}
         />
       </div>
       <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
@@ -44,12 +45,22 @@ function App() {
         <Projects projects={data.projects} />
         <Footer github={data.social.github} />
       </div>
-      <Modal isOpen={isCertificateOpen} onClose={closeCertificate}>
-        <img
-          src="/certificate-florent_cussatlegras.png"
-          alt="Symfony Certification"
-          className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-2xl"
-        />
+      <Modal isOpen={!!activeModal} onClose={closeModal}>
+        {activeModal === "certificate" && (
+          <img
+            src="/certificate-florent_cussatlegras.png"
+            alt="Symfony Certification"
+            className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-2xl"
+          />
+        )}
+
+        {activeModal === "cv" && (
+          <iframe
+            src="/Florent_Cussatlegras_CV_en.pdf"
+            title="Resume"
+            className="w-[90vw] h-[90vh] rounded-lg shadow-2xl"
+          />
+        )}
       </Modal>
       <ScrollToTopButton />
     </div>

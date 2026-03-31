@@ -11,6 +11,7 @@ function Card({
   title,
   social: { github, dribbble, twitter, email },
   onOpenCertificate,
+  onOpenCV,
 }) {
   const { language, toggleLanguage } = useContext(LanguageContext);
 
@@ -53,14 +54,14 @@ function Card({
               href={github}
             >
               <FaGithub />
-              <span class="sr-only">Github</span>
+              <span className="sr-only">Github</span>
             </a>
             <a
-              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-pink-600 hover:bg-pink-600 rounded-full hover:text-white transition-colors duration-300"
-              href="/public/Florent_Cussatlegras_CV_en.pdf"
+              onClick={onOpenCV}
+              className="cursor-pointer text-xl m-1 p-1 sm:m-2 sm:p-2 text-pink-600 hover:bg-pink-600 rounded-full hover:text-white transition-colors duration-300"
             >
               <FaFileAlt />
-              <span class="sr-only">Resume</span>
+              <span className="sr-only">Resume</span>
             </a>
             {/*
             <a
