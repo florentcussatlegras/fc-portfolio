@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import profile from "../images/profile.png";
-import { FaGithub } from "react-icons/fa";
+import { FaFileAlt, FaGithub } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
@@ -57,10 +57,10 @@ function Card({
             </a>
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-pink-600 hover:bg-pink-600 rounded-full hover:text-white transition-colors duration-300"
-              href={dribbble}
+              href="../images/Florent_Cussatlegras_CV_en.pdf"
             >
-              <FaDribbble />
-              <span class="sr-only">Dribble</span>
+              <FaFileAlt />
+              <span class="sr-only">CV</span>
             </a>
             {/*
             <a
