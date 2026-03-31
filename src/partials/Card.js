@@ -60,7 +60,7 @@ function Card({
               href="/public/Florent_Cussatlegras_CV_en.pdf"
             >
               <FaFileAlt />
-              <span class="sr-only">CV</span>
+              <span class="sr-only">Resume</span>
             </a>
             {/*
             <a
