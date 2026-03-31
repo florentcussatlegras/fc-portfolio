@@ -57,7 +57,7 @@ function Card({
             </a>
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-pink-600 hover:bg-pink-600 rounded-full hover:text-white transition-colors duration-300"
-              href="../images/Florent_Cussatlegras_CV_en.pdf"
+              href="/public/Florent_Cussatlegras_CV_en.pdf"
             >
               <FaFileAlt />
               <span class="sr-only">CV</span>
