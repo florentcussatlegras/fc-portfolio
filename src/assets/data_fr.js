@@ -17,7 +17,7 @@ const data = {
     description: [
       "Avec plus de 20 ans d’expérience en développement logiciel, j’ai commencé ma carrière dans le web, où j’ai travaillé pendant 5 ans sur des projets variés, avant de rejoindre le secteur industriel.",
 
-      "Pendant 15 ans, j’ai contribué au développement et à l’évolution d’un logiciel de gestion pour une entreprise industrielle, acquérant une solide expertise en architecture et en conception logicielle.",
+      "Pendant 15 ans, j’ai contribué au développement et à l’évolution d’un ERP sur mesure pour une entreprise industrielle, acquérant une solide expertise en architecture et en conception logicielle.",
 
       "Il y a trois ans, j’ai choisi de me réorienter vers le web pour devenir développeur full stack. Depuis, je me suis spécialisé dans Symfony, obtenant la certification niveau expert, et j’ai exploré Symfony UX pour enrichir l’expérience utilisateur.",
 

@@ -17,7 +17,7 @@ const data = {
     description: [
       "With over 20 years of experience in software development, I began my career in web development, where I worked for five years on a wide range of projects before moving into the industrial sector.",
 
-      "For 15 years, I contributed to the development and evolution of management software for an industrial company, gaining strong expertise in software architecture and design.",
+      "For 15 years, I contributed to the development and evolution of a custom-built ERP solution for an industrial company, gaining strong expertise in software architecture and design.",
 
       "Three years ago, I decided to return to web development and become a full-stack developer. Since then, I have specialized in Symfony, earning the Expert-level certification, and explored Symfony UX to enhance the user experience.",
 

@@ -5,7 +5,6 @@ import Card from "./partials/Card";
 import Footer from "./partials/Footer";
 import Projects from "./partials/Projects";
 import Skills from "./partials/Skills";
-import data from "./assets/data";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import dataFr from "./assets/data_fr";
