@@ -55,7 +55,11 @@ function App() {
 
         {activeModal === "cv" && (
           <iframe
-            src="/Florent_Cussatlegras_CV_en.pdf"
+            src={
+              language === "fr"
+                ? "/Florent_Cussatlegras_CV_fr.pdf"
+                : "/Florent_Cussatlegras_CV_en.pdf"
+            }
             title="Resume"
             className="w-[90vw] h-[90vh] rounded-lg shadow-2xl"
           />

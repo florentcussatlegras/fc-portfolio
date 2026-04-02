@@ -1,8 +1,6 @@
 import React, { useContext } from "react";
 import profile from "../images/profile.png";
 import { FaFileAlt, FaGithub } from "react-icons/fa";
-import { FaDribbble } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import { LanguageContext } from "../context/LanguageContext";
 
@@ -63,14 +61,6 @@ function Card({
               <FaFileAlt />
               <span className="sr-only">Resume</span>
             </a>
-            {/*
-            <a
-              className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300"
-              href={twitter}
-            >
-              <FaTwitter />
-              <span class="sr-only">Twitter</span>
-            </a> */}
             <a
               className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-teal-500 hover:bg-teal-500 rounded-full hover:text-white transition-colors duration-300"
               href={"https://mail.google.com/mail/?view=cm&fs=1&to=" + email}
