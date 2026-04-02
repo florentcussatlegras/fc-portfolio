@@ -1,7 +1,5 @@
 import { cibReact, cibSymfony, cilCode } from "@coreui/icons";
 import CIcon from "@coreui/icons-react";
-import React from "react";
-import { FaPalette, FaReact, FaCode } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 const BOOTSTRAP_FOR_SKILL_ICON = "text-4xl mx-auto inline-block";
