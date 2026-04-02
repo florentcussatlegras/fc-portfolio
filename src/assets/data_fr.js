@@ -5,7 +5,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 const BOOTSTRAP_FOR_SKILL_ICON = "text-4xl mx-auto inline-block";
 const data = {
   name: "Florent C",
-  title: "Full-stack Developer",
+  title: "Développeur Full-stack",
   social: {
     github: "https://github.com/florentcussatlegras",
     email: "florent.cussatlegras@gmail.com",
