@@ -29,7 +29,7 @@ function App() {
   });
 
   useEffect(() => {
-    document.title = "Florent C " + data.title
+    document.title = "Florent C " + data.document_title
   }, [language]);
 
   return (
