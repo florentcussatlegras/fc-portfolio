@@ -72,7 +72,7 @@ const data = {
       description:
         "JobTrackr lets you centralize your applications, organize your follow-ups and analyze your performance. Built with React and Express.",
       image: "screen_jobtrackr.png",
-      tags: ["express", "react", "tailwindcss"],
+      tags: ["expressjs", "reactjs", "tailwindcss"],
       link: "https://job-trackr-production.up.railway.app/",
       linkGithub: "https://github.com/florentcussatlegras/job-trackr.git",
     },

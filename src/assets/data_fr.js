@@ -70,7 +70,7 @@ const data = {
       description:
         "JobTadck vous permet de entraliser vos candidatures, organiser vos relances et analyser vos performances. Développé avec React et Express.",
       image: "screen_jobtrackr.png",
-      tags: ["express", "react", "tailwindcss"],
+      tags: ["expressjs", "reactjs", "tailwindcss"],
       link: "https://job-trackr-production.up.railway.app/",
       linkGithub: "https://github.com/florentcussatlegras/job-trackr.git",
     },
