@@ -66,6 +66,15 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/assiette-ideale",
     },
     {
+      title: "JobTrackr",
+      description:
+        "JobTadck vous permet de entraliser vos candidatures, organiser vos relances et analyser vos performances. Développé avec React et Express.",
+      image: "screen_jobtrackr.png",
+      tags: ["express", "react", "tailwindcss"],
+      link: "https://job-trackr-production.up.railway.app/",
+      linkGithub: "https://github.com/florentcussatlegras/job-trackr.git",
+    },
+    {
       title: "Ten Thousand Hours",
       description:
         "Une application conçue pour vous aider à gérer vos sessions de travail et devenir un expert, développée avec Next.js, HeroUI et TailwindCSS.",

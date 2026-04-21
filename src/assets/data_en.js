@@ -68,6 +68,15 @@ const data = {
       linkGithub: "https://github.com/florentcussatlegras/assiette-ideale",
     },
     {
+      title: "JobTrackr",
+      description:
+        "JobTrackr lets you centralize your applications, organize your follow-ups and analyze your performance. Built with React and Express.",
+      image: "screen_jobtrackr.png",
+      tags: ["express", "react", "tailwindcss"],
+      link: "https://job-trackr-production.up.railway.app/",
+      linkGithub: "https://github.com/florentcussatlegras/job-trackr.git",
+    },
+    {
       title: "Ten Thousand Hours",
       description:
         "An app designed to help you manage your work sessions and become an expert, build with NextJS, HeroUI and TailwindCSS.",
