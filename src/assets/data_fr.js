@@ -20,7 +20,7 @@ const data = {
 
       "Il y a cinq ans, j’ai choisi de me réorienter vers le web pour devenir développeur full stack, ce qui porte mon expérience totale dans ce domaine à 10 ans. Depuis, je me suis spécialisé dans Symfony, obtenant la certification niveau expert, et j’ai exploré Symfony UX pour enrichir l’expérience utilisateur.",
 
-      "Parallèlement, j’ai développé mes compétences en JavaScript, TypeScript et React, tout en adoptant Tailwind pour des interfaces modernes et réactives et ainsi que l'utilisation des conteneurs Docker pour le développement dans des environnements isolés, cohérents et facilement reproductibles.",
+      "Parallèlement, j’ai développé mes compétences en JavaScript, TypeScript, React, Express.js ou encore Next.js tout en adoptant Tailwind pour des interfaces modernes et réactives et ainsi que l'utilisation des conteneurs Docker pour le développement dans des environnements isolés, cohérents et facilement reproductibles.",
 
       "Cette combinaison d’expérience longue et de compétences récentes me permet d’aborder les projets web avec une vision complète, alliant robustesse backend et interfaces utilisateur dynamiques.",
     ],
