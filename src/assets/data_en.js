@@ -20,7 +20,7 @@ const data = {
 
       "For 15 years, I contributed to the development and evolution of a custom-built ERP solution for an industrial company, gaining strong expertise in software architecture and design.",
 
-      "Three years ago, I decided to return to web development and become a full-stack developer. Since then, I have specialized in Symfony, earning the Expert-level certification, and explored Symfony UX to enhance the user experience.",
+      "Five years ago, I decided to return to web development and become a full-stack developer, which brings my total experience in this field to 10 years. Since then, I have specialized in Symfony, earning the Expert-level certification, and explored Symfony UX to enhance the user experience.",
 
       "At the same time, I have strengthened my skills in JavaScript, TypeScript, and React, while adopting Tailwind to build modern and responsive interfaces, as well as using Docker containers for development in isolated, consistent, and easily reproducible environments.",
 
